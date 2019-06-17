@@ -1,6 +1,6 @@
 # template-kustomize
 
-Template repository with example data for using [autoapply](https://github.com/autoapply/autoapply) with kubectl.
+Template repository with example data for using [autoapply](https://github.com/autoapply/autoapply) with [kustomize](https://github.com/kubernetes-sigs/kustomize).
 
 >This is a _template repository_. To create a clean copy of the repository, click [Use this template](https://github.com/autoapply/template-kustomize/generate)
 
