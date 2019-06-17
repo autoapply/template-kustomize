@@ -1,0 +1,7 @@
+git:
+  url: "https://github.com/autoapply/template-kustomize.git"
+  path:
+    - "dev"
+kubernetes:
+  namespace: "autoapply-test"
+  kustomize: true
