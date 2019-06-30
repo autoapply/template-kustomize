@@ -23,6 +23,11 @@ spec:
           ports:
             - containerPort: 80
               name: http
+          envFrom:
+            - secretRef:
+                name: secret-1
+            - secretRef:
+                name: secret-2
           volumeMounts:
             - name: nginx-config-volume
               mountPath: /usr/share/nginx/html

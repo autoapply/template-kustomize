@@ -4,3 +4,9 @@ configMapGenerator:
   - name: content-config
     files:
       - index.html
+secretGenerator:
+  - name: secret-1
+  - name: secret-2
+patchesStrategicMerge:
+  - secret-1.yaml
+  - secret-2.yaml
